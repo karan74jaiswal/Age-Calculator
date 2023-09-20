@@ -4,3 +4,78 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background: linear-gradient(135deg, #4203a9, #90bafc);
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  min-height: 89vh;
+  padding: 0 10px;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: #fff;
+}
+.container h1 {
+  font-size: 60px;
+}
+
+.title {
+  color: #ffff76;
+}
+
+.age-field {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
+  margin: 40px 0;
+}
+
+#date-input-field {
+  position: relative;
+  flex: 1;
+  padding: 14px 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.age-field button {
+  background: #ffff76;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #333;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+#date-input-field::-webkit-calender-picker-indicator {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  position: absolute;
+  background-position: calc(100%-10px);
+  background-size: 30px;
+  cursor: pointer;
+  height: auto;
+}
+.age-result {
+  font-size: 20px;
+}
+
+.age-result span {
+  color: #ffff76;
+}
